@@ -1,0 +1,36 @@
+h1{
+  color: grey;
+  font-family: verdana;
+  text-align: center;
+}
+h2{
+  color: grey;
+  font-family: verdana;
+  text-align: center;
+}
+h2 img{
+  text-align: center;
+}
+p{
+  background: #f6f2f9;
+  text-align: left;
+}
+figure{
+  border: 1 px solid black;
+  padding: 30 px; 
+  padding-bottom: 24 px;
+}
+figure img
+{
+  max-width: 100%
+  width: 80%;
+  height: auto;
+  margin-bottom: 12 px;
+}
+
+p img{
+  float: right;
+  max-width: 60%;
+  margin-left: 20 px;
+  margin-bottom: 32 px;
+}
