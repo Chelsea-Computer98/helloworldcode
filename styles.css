@@ -17,7 +17,7 @@ p{
 }
 figure{
   border: 1 px solid black;
-  padding: 30 px; 
+  padding: 30 px;
   padding-bottom: 24 px;
 }
 figure img
@@ -33,4 +33,28 @@ p img{
   max-width: 60%;
   margin-left: 20 px;
   margin-bottom: 32 px;
+}
+
+nav ul{
+  background-color: PaleVioletRed;
+  display: inline-block;
+  list-style: none;
+  padding-left: 0;
+  border: 1px solid MediumVioletRed;
+}
+
+
+nav ul li a{
+  color: #E3C6F8;
+  text-decoration: none;
+  padding: 8px;
+  border-bottome: 1px solid #2D0748;
+  display: block;
+}
+nav ul li a:hover{
+  background-color:#700FB6;
+}
+
+nav ul li:last-child a {
+  border-bottom:none;
 }
