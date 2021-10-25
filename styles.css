@@ -33,14 +33,15 @@ figure img
 }
 
 figure.main-image{
-  background: PaleVioletRed;
-  border-color: MediumYellow;
-  color: white;
+  float: center;
+  background: lightblue;
+  border-color: black;
+  color: green;
 }
 
 figure.section-image{
   float: right;
-  max-width: 60%;
+  max-width: 100%;
   margin-left: 20 px;
   margin-bottom: 32 px;
   max-width: 320 px;
@@ -56,7 +57,7 @@ figure.section-image.even{
 }
 p img{
   float: right;
-  max-width: 60%;
+  max-width: 100%;
   margin-left: 20 px;
   margin-bottom: 32 px;
 }
