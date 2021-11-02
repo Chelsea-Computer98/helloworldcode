@@ -24,19 +24,27 @@ figure{
   padding: 30 px;
   padding-bottom: 24 px;
 }
+
+img{
+  max-width: 100%
+  height: auto;
+}
 figure img
 {
-  max-width: 100%
-  width: 80%;
-  height: auto;
+
   margin-bottom: 12 px;
 }
 
+@media all and (mid-with: 768px){
 figure.main-image{
   float: center;
+  max-width: 320 px;
+  float: right;
+  margin: -20px -62px 32px 20px;
   background: lightblue;
   border-color: black;
   color: green;
+}
 }
 
 figure.section-image{
@@ -64,10 +72,19 @@ p img{
 
 nav ul{
   background-color: #DFC7F1;
-  display: inline-block;
   list-style: none;
   padding-left: 0;
   border: 1px solid MediumVioletRed;
+}
+
+@media all and (mid-width: 400 px) {
+
+  nav ul{
+  display: flex;
+  justify-content: center;
+  gap: 30 px;
+
+  }
 }
 
 
