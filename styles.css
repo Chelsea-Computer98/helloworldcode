@@ -16,7 +16,7 @@ h2 img{
   text-align: center;
 }
 p{
-  background: #f6f2f9;
+//  background: #f6f2f9;
   text-align: left;
 }
 figure{
@@ -33,6 +33,11 @@ figure img
 {
 
   margin-bottom: 12 px;
+}
+
+body.dark-mode{
+  background: #010101;
+    color: #ffffff;
 }
 
 @media all and (mid-with: 768px){
