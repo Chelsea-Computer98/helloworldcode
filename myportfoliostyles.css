@@ -1,0 +1,66 @@
+h1
+{
+  color: #6078BC;
+padding-top:20px;
+  font-size: 14 px;
+  font-family: Times New Roman;
+  text-align: center;
+}
+
+h2{
+
+  color: #819EF3;
+  font-size: small;
+
+}
+h3{
+  color:#8886DD;
+  text-align:center;
+}
+
+p{
+  text-align:center;
+  margin:20px;
+}
+img{
+  text-align: center;
+  padding-top:10px;
+  padding-bottom:10px;
+ float: left;
+ margin:5px;
+  max-height: 10 px;
+  max-width: 150 px;
+  width: 120 px;
+  height: 120px;
+
+}
+
+body.dark-mode{
+  background: #283250;
+  color: #F1F3FB;
+}
+
+nav ul li a
+{
+  color: #9AB2F8;
+  text-decoration: none;
+  padding: 10 px;
+  border-bottom: 1px solid #546289;
+  display: block;
+}
+
+nav ul li a:hover
+{
+  background-color: #fffff;
+}
+
+nav ul{
+  display: inline-block;
+  justify-content: center;
+  gap: 30 px;
+}
+
+body{
+  background-image: url("https://www.wallpapertip.com/wmimgs/81-812364_minimal-white-wallpaper.jpg");
+  background-color:#ffffff;
+}
